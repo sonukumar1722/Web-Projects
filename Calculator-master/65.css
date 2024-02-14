@@ -1,0 +1,96 @@
+body {
+  background: #050305;
+}
+button {
+    border-radius: 20px;
+    font-size: 35px;
+    color: white;
+    width: 85px;
+    height: 116px;
+    background: none;
+    border: none
+}
+button:hover {
+  background: none;
+}
+a {
+  text-decoration: none;
+  cursor: default;
+  color: rgb(220, 154, 12);
+  font-size:40px;
+  font-weight: bold;
+}
+input {
+  border: none;
+  font-size: 37px;
+  color: white;
+  height: 65px;
+  width: 456px;
+  background: #050305;
+}
+button {
+  border-radius: 20px;
+  font-size: 35px;
+  color: white;
+  width: 95px;
+  height: 110px;
+  background: none;
+  border: none;
+}
+
+.container {
+  text-align: center;
+}
+
+table {
+  margin: auto;
+}
+
+.operand,
+#sci {
+  color: rgb(220, 154, 12);
+  font-weight: bold;
+}
+
+.sciInput {
+  border: none;
+  font-size: 37px;
+  color: white;
+  height: 60px;
+  background: #050305;
+}
+
+.calculator {
+  border: 4px solid #060a0a;
+  background-color: #050305;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+#sci {
+  font-size: 35px;
+  align-items: center;
+  cursor: default;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background: white;
+  }
+  .container {
+  margin-top: 23px;
+  }
+  button {
+    border-radius: 10px;
+    border-style: outset;
+    font-size: 45px;
+    width: 102px;
+    height: 90px;
+    color: white;
+    border: none;
+    background: rgb(30, 34, 39);
+  }
+  button:hover {
+    background: rgb(22, 25, 28);
+  }
+}
